@@ -249,6 +249,7 @@
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 700;
+  color: #fff;
 }
 
 .main__btn {
@@ -350,6 +351,6 @@
 
   .main__btn {
     padding: 12px 36px;
-    margin 2.5rem 0;
+    margin: 2.5rem 0;
   }
 }
