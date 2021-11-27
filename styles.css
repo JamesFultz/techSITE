@@ -40,7 +40,7 @@
   background-clip: text; /* this is testing because my code doesnt match */
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  display:-webkit-flex; /*ORIGINAL CODE HAS 'flex' */
+  display: -webkit-flex; /*ORIGINAL CODE HAS 'flex' */
   align-items: center;
   cursor: pointer;
   text-decoration: none;
@@ -106,7 +106,7 @@
 }
 
 @media screen and (max-width: 980px) {
-  .navbar__container{
+  .navbar__container {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -128,7 +128,6 @@
     height: 50vh;
     z-index: -1;
     background: #131313;
-
   }
 
   .navbar__menu.active {
@@ -201,7 +200,6 @@
   }
 }
 
-
 /* Hero Section */
 .main {
   background-color: #141414;
@@ -269,13 +267,13 @@
 .main__btn a {
   position: relative;
   z-index: 2;
-  color:  #fff;
+  color: #fff;
   text-decoration: none;
 }
 
 .main__btn:after {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 0;
@@ -290,7 +288,7 @@
 }
 
 .main__btn:hover::after {
-  width: 100%
+  width: 100%;
 }
 
 .main__img--container {
@@ -313,7 +311,7 @@
     margin: 0 auto;
     height: 90vh;
   }
-  
+
   .main__content {
     text-align: center;
     margin-bottom: 4rem;
@@ -353,4 +351,49 @@
     padding: 12px 36px;
     margin: 2.5rem 0;
   }
+}
+
+/* Services Section CSS */
+.services {
+  background: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.services h1 {
+  background-color: #ff8177;
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  background-size: 100%;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  -webkit-background-clip: text;
+  /*background-clip: text;*/
+  -moz-background-clip: text;
+  /*background-clip: text;*/
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.services__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services__card {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  
 }
