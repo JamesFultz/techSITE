@@ -403,7 +403,7 @@
     ),*/
     url('/images/pic13.jpg');
   background-size: cover;
-  position: relative;
+  position: sticky;
   color: #fff;
 }
 
