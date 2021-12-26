@@ -205,7 +205,8 @@
 
 .main__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /*grid-template-columns: 1fr 1fr;*/
+  grid-template-columns: repeat(auto-fill, minmax(29rem, 1fr));
   align-items: center;
   justify-self: center;
   margin: 0 auto;
@@ -305,7 +306,7 @@
 /* MOBILE RESPONSIVE */
 @media screen and (max-width: 768px) {
   .main_container {
-    display: inline-flex;
+    display: grid;
     grid-template-columns: auto;
     align-items: center;
     justify-self: center;
@@ -358,6 +359,7 @@
 /* Services Section CSS */
 .services {
   background: #141414;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
