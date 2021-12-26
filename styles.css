@@ -359,7 +359,7 @@
 /* Services Section CSS */
 .services {
   background: #141414;
-  padding-top: 1rem;
+  /*padding-top: 1rem;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
